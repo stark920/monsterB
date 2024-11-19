@@ -1,8 +1,4 @@
 {
   "/page": "app/page.js",
-  "/articles/movements/page": "app/articles/movements/page.js",
-  "/articles/muscle/page": "app/articles/muscle/page.js",
-  "/articles/mind/page": "app/articles/mind/page.js",
-  "/articles/podcast/page": "app/articles/podcast/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/articles/movements/page": "app/articles/movements/page.js"
 }

@@ -234,7 +234,7 @@ function Movements() {
                 },
                 {
                     name: '複合式訓練',
-                    example: '深蹲+垂直跳、RDL+立定跳遠、法式對比 訓練(四項動作:重、快、次重、超級快)',
+                    example: '深蹲+垂直跳、RDL+立定跳遠、法式對比訓練(四項動作:重、快、次重、超級快)',
                     desc: '結合大重量和高速度(PAP: 活化後增益效果)',
                     time: '大重量:75~95%\n高速度:徒手\n3~10組\n1~3次(配對)'
                 },
@@ -248,30 +248,6 @@ function Movements() {
                     name: '靜態啟動訓練',
                     example: '箱上蹲',
                     desc: '針對發力率的訓練',
-                    time: ''
-                }
-            ]
-        },
-        {
-            category: '🏃 肌耐力訓練',
-            value: 'endurance',
-            grid: [
-                {
-                    name: '高反覆重量訓練',
-                    example: '連續深蹲、連續臥推(動作不鎖死)',
-                    desc: '考驗相同動作的肌耐力',
-                    time: ''
-                },
-                {
-                    name: '循環訓練',
-                    example: '屈體划船、RDL、高拉、上膊、前蹲、肩 推、背蹲、抓舉',
-                    desc: '利用連續不同的動作，考驗在高能量系統負荷之下的肌耐力',
-                    time: '每個動作8下，反覆3循環(like CrossFit)'
-                },
-                {
-                    name: '等長肌力訓練',
-                    example: '靜態支撐、靜態懸吊',
-                    desc: '維持高壓力姿勢，延長張力時間',
                     time: ''
                 }
             ]
@@ -313,14 +289,38 @@ function Movements() {
             ]
         },
         {
+            category: '🏃 肌耐力訓練',
+            value: 'endurance',
+            grid: [
+                {
+                    name: '高反覆重量訓練',
+                    example: '連續深蹲、連續臥推(動作不鎖死)',
+                    desc: '考驗相同動作的肌耐力',
+                    time: ''
+                },
+                {
+                    name: '循環訓練',
+                    example: '屈體划船、RDL、高拉、上膊、前蹲、肩 推、背蹲、抓舉',
+                    desc: '利用連續不同的動作，考驗在高能量系統負荷之下的肌耐力',
+                    time: '每個動作8下，反覆3循環(like CrossFit)'
+                },
+                {
+                    name: '等長肌力訓練',
+                    example: '靜態支撐、靜態懸吊',
+                    desc: '維持高壓力姿勢，延長張力時間',
+                    time: ''
+                }
+            ]
+        },
+        {
             category: '😵‍💫 重耐力訓練',
             value: 'he',
             grid: [
                 {
                     name: '呼吸式深蹲',
                     example: '阿良:一般在背槓蹲舉的經驗，低槓位背蹲舉可以比高槓位稍微更有力量，所以在Super Squat時下意識的就選擇低背槓來蹲10RM 20下。\n但其實Super Squat的表現限制因素往往不會是下肢力量，而是能力系統跟「喘」。\n如果20下都用閥式操作、閉氣的方式蹲，直接背離了「單次不宜過久、連續不宜過多」的原則，不但可能出現頭暈、耳鳴、眼前漆黑甚至頭痛等症狀，到後面幾下會因為喘到不行，無法好好閉氣，影響核心穩定。\n低槓背蹲舉有更大的背屈角度，對脊椎穩定影響較大；又喘、又累、核心受挑戰、要略往前傾再使力的站起來在整個過程中實在很痛苦，也可能因為穩定性與活動度的交互作用，讓身體在不自覺的情況下，還沒達到應有的深度就自己站起來了。\n因此老師提到的呼吸式深蹲+「高槓位」背法，有機會讓上述的狀況改善一些。\n\nVicky:高槓位，離心時吸氣，過髖低於膝時微憋氣，過了最低點往上時開始鞏固核心的吐氣 ，越來越沒有腦壓升高的感覺',
-                    desc: '每次深蹲過後，做數次深呼 目標:以10RM重量 吸恢復體力，重量不放下',
-                    time: '目標:以10RM重量 吸恢復體力，重量不放下，完成20次'
+                    desc: '每次深蹲過後，做數次深呼恢復體力，重量不放下，連續做20次深蹲',
+                    time: '目標:以10RM重量完成20次'
                 }
             ]
         },
@@ -343,7 +343,6 @@ function Movements() {
                 {
                     title: '滾木槓',
                     movements: [
-                        '滾木槓',
                         '滾木槓臥推',
                         '滾木槓硬舉',
                         '滾木槓划船',
@@ -484,6 +483,32 @@ function Movements() {
             ]
         },
         {
+            category: '✋ 徒手訓練',
+            value: 'cath',
+            items: [
+                {
+                    title: '伏地挺身',
+                    movements: [
+                        '墊高伏地挺身',
+                        '伏地挺身',
+                        '弓箭手伏地挺身',
+                        '槓桿式伏地挺身',
+                        '單手伏地挺身'
+                    ]
+                },
+                {
+                    title: '深蹲',
+                    movements: [
+                        '輔助深蹲',
+                        '深蹲',
+                        '輔助坐箱單腳蹲',
+                        '坐箱單腳蹲',
+                        '單腳深蹲'
+                    ]
+                }
+            ]
+        },
+        {
             category: '🐍 違常姿勢訓練',
             value: 'weird',
             items: [
@@ -508,7 +533,8 @@ function Movements() {
                     title: '懸吊移動',
                     movements: [
                         '靜態懸吊（單、雙手）',
-                        '單槓橫移（左右換手正反抓）',
+                        '單槓橫移',
+                        '單槓換手',
                         '懸吊移動'
                     ]
                 }
@@ -527,7 +553,7 @@ function Movements() {
                             children: el.category
                         }, void 0, false, {
                             fileName: "[project]/app/articles/movements/page.tsx",
-                            lineNumber: 352,
+                            lineNumber: 378,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -543,7 +569,7 @@ function Movements() {
                                                         children: "名稱"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/articles/movements/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 386,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -551,7 +577,7 @@ function Movements() {
                                                         children: "範例"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/articles/movements/page.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 387,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -559,7 +585,7 @@ function Movements() {
                                                         children: "特性"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/articles/movements/page.tsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 388,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableHead"], {
@@ -567,18 +593,18 @@ function Movements() {
                                                         children: "強度x組數x次數"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/articles/movements/page.tsx",
-                                                        lineNumber: 363,
+                                                        lineNumber: 389,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/articles/movements/page.tsx",
-                                                lineNumber: 359,
+                                                lineNumber: 385,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                            lineNumber: 358,
+                                            lineNumber: 384,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableBody"], {
@@ -588,7 +614,7 @@ function Movements() {
                                                             children: item.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                                            lineNumber: 369,
+                                                            lineNumber: 395,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -596,7 +622,7 @@ function Movements() {
                                                             children: item.example
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                                            lineNumber: 370,
+                                                            lineNumber: 396,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -604,7 +630,7 @@ function Movements() {
                                                             children: item.desc
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                                            lineNumber: 371,
+                                                            lineNumber: 397,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TableCell"], {
@@ -612,24 +638,24 @@ function Movements() {
                                                             children: item.time
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                                            lineNumber: 372,
+                                                            lineNumber: 398,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, item.name, true, {
                                                     fileName: "[project]/app/articles/movements/page.tsx",
-                                                    lineNumber: 368,
+                                                    lineNumber: 394,
                                                     columnNumber: 25
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                            lineNumber: 366,
+                                            lineNumber: 392,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/articles/movements/page.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 383,
                                     columnNumber: 19
                                 }, this),
                                 el.items && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
@@ -642,7 +668,7 @@ function Movements() {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/articles/movements/page.tsx",
-                                                    lineNumber: 387,
+                                                    lineNumber: 413,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -650,59 +676,59 @@ function Movements() {
                                                         className: "list-disc list-inside",
                                                         children: item.movements.map((movement)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 children: movement
-                                                            }, void 0, false, {
+                                                            }, movement, false, {
                                                                 fileName: "[project]/app/articles/movements/page.tsx",
-                                                                lineNumber: 391,
-                                                                columnNumber: 65
+                                                                lineNumber: 416,
+                                                                columnNumber: 63
                                                             }, this))
-                                                    }, `${item.title}${index}`, false, {
+                                                    }, void 0, false, {
                                                         fileName: "[project]/app/articles/movements/page.tsx",
-                                                        lineNumber: 390,
-                                                        columnNumber: 31
+                                                        lineNumber: 415,
+                                                        columnNumber: 29
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/articles/movements/page.tsx",
-                                                    lineNumber: 388,
+                                                    lineNumber: 414,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, `${el.value}-${index}`, true, {
                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                            lineNumber: 386,
+                                            lineNumber: 412,
                                             columnNumber: 25
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "border-b py-4",
                                             children: item.title
-                                        }, void 0, false, {
+                                        }, item.title, false, {
                                             fileName: "[project]/app/articles/movements/page.tsx",
-                                            lineNumber: 397,
+                                            lineNumber: 421,
                                             columnNumber: 25
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/articles/movements/page.tsx",
-                                    lineNumber: 381,
+                                    lineNumber: 407,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/articles/movements/page.tsx",
-                            lineNumber: 353,
+                            lineNumber: 379,
                             columnNumber: 15
                         }, this)
                     ]
                 }, el.value, true, {
                     fileName: "[project]/app/articles/movements/page.tsx",
-                    lineNumber: 351,
+                    lineNumber: 377,
                     columnNumber: 13
                 }, this))
         }, void 0, false, {
             fileName: "[project]/app/articles/movements/page.tsx",
-            lineNumber: 348,
+            lineNumber: 374,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/articles/movements/page.tsx",
-        lineNumber: 347,
+        lineNumber: 373,
         columnNumber: 5
     }, this);
 }

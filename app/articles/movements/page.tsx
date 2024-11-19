@@ -62,7 +62,7 @@ export default function Movements() {
         },
         {
           name: '複合式訓練',
-          example: '深蹲+垂直跳、RDL+立定跳遠、法式對比 訓練(四項動作:重、快、次重、超級快)',
+          example: '深蹲+垂直跳、RDL+立定跳遠、法式對比訓練(四項動作:重、快、次重、超級快)',
           desc: '結合大重量和高速度(PAP: 活化後增益效果)',
           time: '大重量:75~95%\n高速度:徒手\n3~10組\n1~3次(配對)'
         },
@@ -76,30 +76,6 @@ export default function Movements() {
           name: '靜態啟動訓練',
           example: '箱上蹲',
           desc: '針對發力率的訓練',
-          time: ''
-        }
-      ]
-    },
-    {
-      category: '🏃 肌耐力訓練',
-      value: 'endurance',
-      grid: [
-        {
-          name: '高反覆重量訓練',
-          example: '連續深蹲、連續臥推(動作不鎖死)',
-          desc: '考驗相同動作的肌耐力',
-          time: ''
-        },
-        {
-          name: '循環訓練',
-          example: '屈體划船、RDL、高拉、上膊、前蹲、肩 推、背蹲、抓舉',
-          desc: '利用連續不同的動作，考驗在高能量系統負荷之下的肌耐力',
-          time: '每個動作8下，反覆3循環(like CrossFit)'
-        },
-        {
-          name: '等長肌力訓練',
-          example: '靜態支撐、靜態懸吊',
-          desc: '維持高壓力姿勢，延長張力時間',
           time: ''
         }
       ]
@@ -141,14 +117,38 @@ export default function Movements() {
       ]
     },
     {
+      category: '🏃 肌耐力訓練',
+      value: 'endurance',
+      grid: [
+        {
+          name: '高反覆重量訓練',
+          example: '連續深蹲、連續臥推(動作不鎖死)',
+          desc: '考驗相同動作的肌耐力',
+          time: ''
+        },
+        {
+          name: '循環訓練',
+          example: '屈體划船、RDL、高拉、上膊、前蹲、肩 推、背蹲、抓舉',
+          desc: '利用連續不同的動作，考驗在高能量系統負荷之下的肌耐力',
+          time: '每個動作8下，反覆3循環(like CrossFit)'
+        },
+        {
+          name: '等長肌力訓練',
+          example: '靜態支撐、靜態懸吊',
+          desc: '維持高壓力姿勢，延長張力時間',
+          time: ''
+        }
+      ]
+    },
+    {
       category: '😵‍💫 重耐力訓練',
       value: 'he',
       grid: [
         {
           name: '呼吸式深蹲',
           example: '阿良:一般在背槓蹲舉的經驗，低槓位背蹲舉可以比高槓位稍微更有力量，所以在Super Squat時下意識的就選擇低背槓來蹲10RM 20下。\n但其實Super Squat的表現限制因素往往不會是下肢力量，而是能力系統跟「喘」。\n如果20下都用閥式操作、閉氣的方式蹲，直接背離了「單次不宜過久、連續不宜過多」的原則，不但可能出現頭暈、耳鳴、眼前漆黑甚至頭痛等症狀，到後面幾下會因為喘到不行，無法好好閉氣，影響核心穩定。\n低槓背蹲舉有更大的背屈角度，對脊椎穩定影響較大；又喘、又累、核心受挑戰、要略往前傾再使力的站起來在整個過程中實在很痛苦，也可能因為穩定性與活動度的交互作用，讓身體在不自覺的情況下，還沒達到應有的深度就自己站起來了。\n因此老師提到的呼吸式深蹲+「高槓位」背法，有機會讓上述的狀況改善一些。\n\nVicky:高槓位，離心時吸氣，過髖低於膝時微憋氣，過了最低點往上時開始鞏固核心的吐氣 ，越來越沒有腦壓升高的感覺',
-          desc: '每次深蹲過後，做數次深呼 目標:以10RM重量 吸恢復體力，重量不放下',
-          time: '目標:以10RM重量 吸恢復體力，重量不放下，完成20次'
+          desc: '每次深蹲過後，做數次深呼恢復體力，重量不放下，連續做20次深蹲',
+          time: '目標:以10RM重量完成20次'
         }
       ]
     },
@@ -171,7 +171,6 @@ export default function Movements() {
         {
           title: '滾木槓',
           movements: [
-            '滾木槓',
             '滾木槓臥推',
             '滾木槓硬舉',
             '滾木槓划船',
@@ -312,6 +311,32 @@ export default function Movements() {
       ]
     },
     {
+      category: '✋ 徒手訓練',
+      value: 'cath',
+      items: [
+        {
+          title: '伏地挺身',
+          movements: [
+            '墊高伏地挺身',
+            '伏地挺身',
+            '弓箭手伏地挺身',
+            '槓桿式伏地挺身',
+            '單手伏地挺身'
+          ]
+        },
+        {
+          title: '深蹲',
+          movements: [
+            '輔助深蹲',
+            '深蹲',
+            '輔助坐箱單腳蹲',
+            '坐箱單腳蹲',
+            '單腳深蹲'
+          ]
+        }
+      ]
+    },
+    {
       category: '🐍 違常姿勢訓練',
       value: 'weird',
       items: [
@@ -336,7 +361,8 @@ export default function Movements() {
           title: '懸吊移動',
           movements: [
             '靜態懸吊（單、雙手）',
-            '單槓橫移（左右換手正反抓）',
+            '單槓橫移',
+            '單槓換手',
             '懸吊移動'
           ]
         }
@@ -386,15 +412,13 @@ export default function Movements() {
                         <AccordionItem value={`${el.value}-${index}`} key={`${el.value}-${index}`}>
                           <AccordionTrigger>{item.title}</AccordionTrigger>
                           <AccordionContent>
-                            {
-                              <ul className="list-disc list-inside" key={`${item.title}${index}`}>
-                                {item.movements.map(movement => <li>{movement}</li>)}
-                              </ul>
-                            }
+                            <ul className="list-disc list-inside">
+                              {item.movements.map(movement => <li key={movement}>{movement}</li>)}
+                            </ul>
                           </AccordionContent>
                         </AccordionItem>
                         :
-                        <div className="border-b py-4">{item.title}</div>
+                        <div className="border-b py-4" key={item.title}>{item.title}</div>
                       )
                     }
                   </Accordion>

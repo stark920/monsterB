@@ -107,7 +107,7 @@ export function AppSidebar() {
         </SidebarGroup>
 
         <SidebarGroup>
-          <SidebarGroupLabel>群組資源（請在群組下載）</SidebarGroupLabel>
+          <SidebarGroupLabel>群組資源</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {attachments.map((item) => (
