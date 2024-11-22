@@ -18,6 +18,11 @@ const items = [
     icon: BicepsFlexed,
   },
   {
+    title: "運動單位大小原理",
+    url: "/articles/bigSmall",
+    icon: BicepsFlexed,
+  },
+  {
     title: "運動心理學",
     url: "/articles/mind",
     icon: Brain,
